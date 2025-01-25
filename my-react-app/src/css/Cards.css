@@ -1,0 +1,77 @@
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-left: 30px;
+  }
+  
+  .icon-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .iconlink {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  
+  .imagelink-section {
+    margin-bottom: 15px;
+  }
+  
+  .imagelink {
+    width: 70%;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 18px;
+    color: #7a502b;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .see-more {
+    color: #7a502b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .see-more:hover {
+    text-decoration: underline;
+  }
+  .see-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .see-more-btn:hover {
+    background-color: #0056b3;
+  }
